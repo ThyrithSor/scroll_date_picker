@@ -53,7 +53,7 @@ class DateScrollView extends StatelessWidget {
     if (locale.languageCode == ar) {
       return textWidth + 40;
     } else if (locale.languageCode == km) {
-      return textWidth + 12;
+      return textWidth + 16;
     }
 
     return textWidth + 8;
