@@ -11,6 +11,7 @@ extension StringExtension on String {
         text: this,
       ),
       textDirection: Directionality.of(context),
+      textScaler: MediaQuery.of(context).textScaler,
     );
     _painter.layout();
 
